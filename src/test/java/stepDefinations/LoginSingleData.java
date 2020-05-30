@@ -25,7 +25,7 @@ public class LoginSingleData {
 	@When("^I click Login Button$")
 	public void i_click_Login_Button() throws Throwable {
 		driver.findElement(By.name("Submit")).click();
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 	    
 	}
 
